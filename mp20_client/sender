@@ -1,0 +1,14 @@
+#!/bin/bash
+
+../bin/mp20_client.exe \
+	-in 10w.csv \
+	-out inter.csv \
+	-role sender \
+	-ss 100000 \
+	-rs 200000 \
+	-server \
+	-addr 0.0.0.0 \
+	-port 7777 \
+	-seed 3 4 5 6 \
+	-commonseed 10 11 12 13
+

@@ -73,3 +73,7 @@ add_subdirectory(PSI)
 add_subdirectory(PSI_test)
 
 
+#############################################
+#           Build MP20 Client
+#############################################
+add_subdirectory(mp20_client)
